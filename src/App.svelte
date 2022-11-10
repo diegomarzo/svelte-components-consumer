@@ -1,18 +1,17 @@
 <script>
-  import WelcomeMessage from "@diegomarzo/svelte-components"
-  import StylishButton from "@diegomarzo/svelte-components"
+    import {WelcomeMessage, StylishButton} from "@diegomarzo/svelte-components"
 </script>
 
 <main>
-  <WelcomeMessage name="World"/>
-  <StylishButton bgColor="pink" txtColor="darkblue" message="I'm very stylish"></StylishButton>
+    <WelcomeMessage name="Planet"/>
+    <StylishButton bgColor="goldenrod" txtColor="purple" message="I'm even more stylish"/>
 </main>
 
 <style>
-  main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 </style>
